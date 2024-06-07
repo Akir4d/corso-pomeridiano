@@ -9,3 +9,5 @@ sudo apt install -y apt-transport-https
 sudo apt update -y
 sudo apt install -y code # or code-insiders
 sudo apt install -y gdb
+
+# per uindos: https://code.visualstudio.com/docs/cpp/config-mingw
