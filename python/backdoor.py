@@ -2,6 +2,8 @@ import socket as so
 import os
 # https://docs.python.org/
 # https://docs.python.org/3/library/socket.html#module-socket
+# provate ad invertire la backdoor in modo che si colleghi
+# a nc -lvp 44444
 
 SRV_ADDR = ""
 SRV_PORT = 44444
