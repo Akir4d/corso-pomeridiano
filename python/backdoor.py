@@ -9,6 +9,7 @@ SRV_ADDR = ""
 SRV_PORT = 44444
 
 s = so.socket(so.AF_INET, so.SOCK_STREAM)
+s.connect()
 s.bind((SRV_ADDR, SRV_PORT))
 s.listen(1)
 print(f'Sono in ascolto su: {SRV_PORT}')
